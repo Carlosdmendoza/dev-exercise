@@ -1,7 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import Login from './Login';
 import "../node_modules/@partnerhero/phds.utilities.typography/dist/fonts/Inter-Web/inter.css";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 const root = ReactDOM.createRoot(

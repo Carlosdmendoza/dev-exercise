@@ -83,10 +83,12 @@ const Login: React.FC=()=>{
 
       {/*Start Button****************************************************************/}
             <Button style = {{margin: '30px 20px 20px 20px', background: '#186bed' , height: '46px', width: '400px'}}
-              onClick={() => alert('you clicked me!')}
+              onClick={() => window.open("/Todo")}
               size="small"
               fullWidth
               borderRadius = '0px'
+
+             
               
              >
                 Login            
