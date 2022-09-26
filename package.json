@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@partnerhero/phds.utilities.theme": "^1.0.0",
+    "@partnerhero/phds.utilities.typography": "^1.0.0"
+  }
+}
