@@ -9,6 +9,8 @@ import { Selection } from '@partnerhero/phds.ui.form_elements.selection';
 
 
 
+
+
 const Login: React.FC=()=>{
    return(
 <Container style={{ marginTop: '10vh' }}
@@ -83,7 +85,7 @@ const Login: React.FC=()=>{
 
       {/*Start Button****************************************************************/}
             <Button style = {{margin: '30px 20px 20px 20px', background: '#186bed' , height: '46px', width: '400px'}}
-              onClick={() => window.open("/Todo")}
+              onClick={() => window.open("/MainView")}
               size="small"
               fullWidth
               borderRadius = '0px'

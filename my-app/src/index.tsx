@@ -1,8 +1,25 @@
 import React from 'react';
-import Login from './Login';
-import "../node_modules/@partnerhero/phds.utilities.typography/dist/fonts/Inter-Web/inter.css";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from './Login';
+import "../node_modules/@partnerhero/phds.utilities.typography/dist/fonts/Inter-Web/inter.css";
+import Todo from './Todo';
+
+
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        
+          <Route index element={<Login />} />
+          <Route path="Todo" element={<Todo />} />
+          
+        
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 
 const root = ReactDOM.createRoot(
@@ -10,9 +27,12 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Login />
+     <App />
   </React.StrictMode>
 );
+
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
