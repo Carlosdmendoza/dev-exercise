@@ -10,6 +10,8 @@
     "@partnerhero/phds.ui.form_elements.selection": "^1.0.0",
     "@partnerhero/phds.ui.layouts.container": "^1.0.0",
     "@partnerhero/phds.ui.menu.menu_item": "^1.0.0",
+    "@partnerhero/phds.ui.navigation.tab": "^1.0.0",
+    "@partnerhero/phds.ui.navigation.tab_bar": "^1.0.0",
     "@partnerhero/phds.utilities.theme": "^1.0.0",
     "@partnerhero/phds.utilities.typography": "^1.0.0",
     "@types/jest": "^27.5.2",
