@@ -30,13 +30,13 @@ const MainHeader: React.FC=()=>{
             <MenuItem style={{marginLeft:"62px"}}
              className = "MenuItem" 
              label="Todo Items"
-             onClick={() => {}}
+             onClick={() => window.open("/Todo" , "_Current")}
              iconProps={{ icon: 'faClipboardListCheck' }}
             />
 
            <MenuItem className = "MenuItem"
              label="Statistics"
-             onClick={() => {}}
+             onClick={() => window.open("/Statistics" , "_Current")}
              iconProps={{ icon: 'faChartLine' }}
            
             />
@@ -44,7 +44,7 @@ const MainHeader: React.FC=()=>{
            <MenuItem 
              className = "MenuItem" 
              label="Invite Friends"
-             onClick={() => {}}
+             onClick={() => window.open("/Invite" , "_Current")}
              iconProps={{ icon: 'faEnvelopesBulk'}}
             />
 

@@ -4,6 +4,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from './Login';
 import "../node_modules/@partnerhero/phds.utilities.typography/dist/fonts/Inter-Web/inter.css";
 import Todo from './Todo';
+import Statistics from './Statistics';
+import InviteFriends from './Invite';
+import Invite from './Invite';
 
 
 
@@ -13,7 +16,10 @@ export default function App() {
       <Routes>
         
           <Route index element={<Login />} />
-          <Route path="Todo" element={<Todo />} />
+          <Route path= "Todo" element={<Todo />} />
+          <Route path= "Statistics" element={<Statistics />} />
+          <Route path= "Invite" element={<Invite />} />
+
           
         
       </Routes>
