@@ -13,3 +13,29 @@ code {
 }
 
 
+.MenuItem {
+color: rgb(34, 53, 84);
+font-family: FontAwesome5Pro-Regular;
+font-size: 18px;
+font-weight: normal;
+height: 18px;
+letter-spacing: 0px;
+justify-content: space-evenly!important;
+width: 165px;
+margin-top: 0px;
+
+}
+
+.SMenuItem {
+  color: rgb(34, 53, 84);
+  font-family: FontAwesome5Pro-Regular;
+  font-size: 20px;
+  font-weight: 800!important;
+  height: 18px;
+  letter-spacing: 0px;
+  width: 20px;
+   
+  }
+
+
+

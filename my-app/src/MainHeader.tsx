@@ -1,22 +1,102 @@
 import React from 'react';
 import { Container } from '@partnerhero/phds.ui.layouts.container';
-import { Label } from '@partnerhero/phds.ui.buttons.label';
 import {MenuItem} from '@partnerhero/phds.ui.menu.menu_item';
 import { FontAwesomeSizeEnum, Icon } from '@partnerhero/phds.ui.icons.icon';
+import { Avatar } from '@partnerhero/phds.ui.avatar';
+import { Size } from '@partnerhero/phds.utilities.enums';
+
+import './index.css';
 
 
 const MainHeader: React.FC=()=>{
     return(
 
   //Start of the header container
-  
-        <div>
-          <MenuItem
-             label="Menu Item"
+      
+
+       
+        <Container   
+        backgroundColor='white'
+        addShadow
+        addFullWidth
+       
+        >
+
+          <Container 
+          style={{width:"80%" , paddingBottom: "0px" }}
+                    >
+
+            <MenuItem style={{marginLeft:"62px"}}
+             className = "MenuItem" 
+             label="Todo Items"
              onClick={() => {}}
-             iconProps={{ icon: 'faTwitter' }}
+             iconProps={{ icon: 'faClipboardListCheck' }}
             />
-        </div>
+
+           <MenuItem className = "MenuItem"
+             label="Statistics"
+             onClick={() => {}}
+             iconProps={{ icon: 'faChartLine' }}
+           
+            />
+
+           <MenuItem 
+             className = "MenuItem" 
+             label="Invite Friends"
+             onClick={() => {}}
+             iconProps={{ icon: 'faEnvelopesBulk'}}
+            />
+
+            </Container>
+
+         
+   
+        
+        <Container
+        //start secondary container
+        style={{  width:"300px" , height: "auto", position: "fixed",  top: "0px", right: "0px", background: "transparent" , justifyContent: "space-evenly"}}
+        
+        >
+          
+         <Avatar
+            username="First Name"
+            
+            size={Size.extraSmall}
+            borderColor="primary"
+            
+          />
+          
+
+          <MenuItem 
+    
+             className = "SMenuItem" 
+             label=""
+             onClick={() => {}}
+             iconProps={{ icon: 'faBell'}}
+            />
+
+            <MenuItem 
+             className = "SMenuItem" 
+             onClick={() => {}}
+             iconProps={{ icon: 'faCog'}}
+            
+            //End of Secondary Container
+             />
+        </Container> 
+ 
+        
+  
+   
+    
+
+
+          
+
+         
+
+          
+
+       </Container>
   
     
   //End MainHEader
