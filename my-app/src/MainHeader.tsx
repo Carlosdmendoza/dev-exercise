@@ -24,7 +24,7 @@ const MainHeader: React.FC=()=>{
         >
 
           <Container 
-          style={{width:"80%"  , height: "75px", position:"fixed", top:"25px", backgroundColor: 'transparent'}}
+          style={{width:"80%"  , height: "74px", position:"fixed", top:"25px", backgroundColor: 'transparent'}}
                     >
 
             <MenuItem style={{marginLeft:"62px"}}
