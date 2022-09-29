@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.MenuItem:hover {
+MenuItem a:hover {
   color: rgb(14, 106, 255);
   font-family: FontAwesome5Pro-Regular;
   font-size: 18px;
