@@ -19,11 +19,12 @@ const MainHeader: React.FC=()=>{
         backgroundColor='white'
         addShadow
         addFullWidth
+        height='75px'
        
         >
 
           <Container 
-          style={{width:"80%" , paddingBottom: "0px" }}
+          style={{width:"80%"  , height: "75px", position:"fixed", top:"25px", backgroundColor: 'transparent'}}
                     >
 
             <MenuItem style={{marginLeft:"62px"}}
@@ -54,7 +55,7 @@ const MainHeader: React.FC=()=>{
         
         <Container
         //start secondary container
-        style={{  width:"300px" , height: "auto", position: "fixed",  top: "0px", right: "0px", background: "transparent" , justifyContent: "space-evenly"}}
+        style={{  width:"20%" , height: "auto", position: "fixed",  top: "25px", right: "0px", background: "transparent" , justifyContent: "space-evenly"}}
         
         >
           
