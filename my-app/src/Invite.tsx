@@ -8,8 +8,11 @@ import { Input } from '@partnerhero/phds.form_elements.input';
 import { Selection } from '@partnerhero/phds.ui.form_elements.selection';
 import { FontAwesomeSizeEnum, Icon } from '@partnerhero/phds.ui.icons.icon';
 import { Button } from '@partnerhero/phds.ui.buttons.button';
+import { Card } from '@partnerhero/phds.ui.card';
+import { Avatar } from '@partnerhero/phds.ui.avatar';
 
-
+const avatarURL =
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP2QL4r_lVl4Jc3jNSPwDbUU85KNAWJurhedZhvW6j0zN47wkbu9lqTm9DX96WMJpOcps&usqp=CAU';
 
 const Invite: React.FC=()=>{
     return(
@@ -22,7 +25,7 @@ const Invite: React.FC=()=>{
              >
                  <Container
                  margin='auto'
-                 style={{display:'inline-block', paddingBottom:'0px', width:'672px'}}
+                 style={{display:'inline-block', paddingBottom:'0px', width:'672px', paddingLeft: '0px'}}
                  addFullWidth
                  
                  
@@ -39,7 +42,7 @@ const Invite: React.FC=()=>{
                     </Typography>
 
                     <Container
-                     style={{ width: '672px', verticalAlign:'middle', paddingLeft:'0px'}}
+                     style={{ width: '692px', verticalAlign:'middle', paddingLeft:'0px'}}
 
                     addShadow
                     
@@ -58,7 +61,7 @@ const Invite: React.FC=()=>{
 
                     <Button
                     style={{width:'88px', height: '44px', marginTop: '20px'}}
-                    background= 'rgba(255, 255, 255, 0)'
+                    background= '#186bed'
                     >
                         Invite 
                     </Button>
@@ -68,13 +71,13 @@ const Invite: React.FC=()=>{
                     </Container>
 
                     <Container
-                      style={{display:'inline-block', paddingBottom:'0px', width:'652px', marginTop:'25px'}}
-                    addShadow
+                      style={{display:'inline-block', paddingTop:'0px',paddingBottom:'0px', width:'672px', marginTop:'25px', paddingLeft:'0px'}}
+                
                     backgroundColor='white'
                     >
 
                         <Typography
-                        style={{marginTop:'25px'}}
+                        style={{marginTop: '25px'}}
                         align= 'center'
                         variant='boldLarge'
                         >
@@ -82,6 +85,76 @@ const Invite: React.FC=()=>{
 
                         </Typography>
                         
+                        <Container
+                        addShadow
+                        style={{width:'672px', height: '52px'}}
+                        >
+                        <Card
+                            minWidth='652px'
+                            title="andrew.love@partnerhero.com"
+                            left={<Icon icon="faPaperPlane" />}
+                            right={<Icon icon="faEllipsis" />}
+                            
+                        />
+                        </Container>
+                        
+                        <Typography
+                        style={{marginTop: '25px'}}
+                        align= 'center'
+                        variant='boldLarge'
+                        >
+                            Signups
+
+                        </Typography>
+                        <Container
+                        addShadow
+                        style={{width:'672px', height: '52px', marginTop:'15px'}}
+                        >
+                        <Card
+
+                            minWidth='640px'
+                            type="list"
+                            title="With Avatar &amp; Component"
+                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                            left={
+                                <div>
+                                    <Avatar
+                                        username="Example"
+                                        src={avatarURL}
+                                        borderColor="successLightest"
+                                        margin="0"
+                                    />
+                                </div>
+                            }
+                            right={<Icon margin="0" icon="faEllipsis" />}
+                        />
+                        </Container>
+
+
+                        <Container
+                        addShadow
+                        style={{width:'672px', height: '52px', marginTop:'15px'}}
+                        >
+                        <Card
+
+                            minWidth='640px'
+                            type="list"
+                            title="With Avatar &amp; Component"
+                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                            left={
+                                <div>
+                                    <Avatar
+                                        username="Example"
+                                        src={avatarURL}
+                                        borderColor="successLightest"
+                                        margin="0"
+                                    />
+                                </div>
+                            }
+                            right={<Icon margin="0" icon="faEllipsis" />}
+                        />
+                        </Container>
+
                     </Container>
                  </Container>
 

@@ -7,7 +7,9 @@ import { Size } from '@partnerhero/phds.utilities.enums';
 
 import './index.css';
 
-
+const avatarURL =
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP2QL4r_lVl4Jc3jNSPwDbUU85KNAWJurhedZhvW6j0zN47wkbu9lqTm9DX96WMJpOcps&usqp=CAU';
+    
 const MainHeader: React.FC=()=>{
     return(
 
@@ -16,6 +18,7 @@ const MainHeader: React.FC=()=>{
 
        
         <Container   
+        style={{ top:'0px',  backgroundColor: 'white!important' , zIndex:'999', position: 'static'}}
         backgroundColor='white'
         addShadow
         addFullWidth
@@ -24,7 +27,7 @@ const MainHeader: React.FC=()=>{
         >
 
           <Container 
-          style={{width:"80%"  , height: "74px", position:"fixed", top:"25px", backgroundColor: 'transparent'}}
+          style={{width:"80%"  , height: "74px", position:"static", top:"25px", backgroundColor: 'transparent'}}
                     >
 
             <MenuItem style={{marginLeft:"62px"}}
@@ -55,14 +58,14 @@ const MainHeader: React.FC=()=>{
         
         <Container
         //start secondary container
-        style={{  width:"20%" , height: "auto", position: "fixed",  top: "25px", right: "0px", background: "transparent" , justifyContent: "space-evenly"}}
+        style={{  width:"20%" , height: "auto", position: "static",  top: "25px", right: "0px", background: "transparent" , justifyContent: "space-evenly"}}
         
         >
           
          <Avatar
             username="First Name"
-            
             size={Size.extraSmall}
+            src={avatarURL}
             borderColor="primary"
             
           />
