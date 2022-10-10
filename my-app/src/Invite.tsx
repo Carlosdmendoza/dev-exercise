@@ -3,6 +3,12 @@ import MainHeader from './MainHeader';
 import { Container } from '@partnerhero/phds.ui.layouts.container';
 import ToDoItems from './NewToDoItem';
 import ToDoOptions from './ToDoOptions';
+import { Typography } from '@partnerhero/phds.utilities.typography';
+import { Input } from '@partnerhero/phds.form_elements.input';
+import { Selection } from '@partnerhero/phds.ui.form_elements.selection';
+import { FontAwesomeSizeEnum, Icon } from '@partnerhero/phds.ui.icons.icon';
+import { Button } from '@partnerhero/phds.ui.buttons.button';
+
 
 
 const Invite: React.FC=()=>{
@@ -14,8 +20,54 @@ const Invite: React.FC=()=>{
             addFullWidth
              addShadow
              >
-                 The Invite Friends page will be displayed here
+                 <Container
+                 margin='auto'
+                 style={{display:'inline-block', paddingBottom:'0px', width:'672px'}}
+                 
+                 
+                 >
+                    <Typography 
+                    variant='h3'
+                    align='left'
+                    > Invite your friends!
+                    </Typography>
+
+                    <Typography 
+                    variant='bodyMedium'
+                    > Todo is under beta, but you can invite your friends!
+                    </Typography>
+
+                    <Container
+                     style={{ width: '672px', verticalAlign:'middle', paddingLeft:'0px'}}
+
+                    addShadow
+                    
+                    >
+               {/*Email Field****************************************************************/}
+                
+                <Input
+                        style={{width: '524px!important', float: 'left'}}
+                        placeholder="you@awesome.com"
+                        required   
+                        fullWidth
+                        type="email"
+                        prefixIcon = {<Icon icon={"faEnvelope"}/>}   
+                                      
+                />
+
+                    <Button
+                    style={{width:'88px', height: '44px', marginTop: '20px'}}
+                    background= 'rgba(255, 255, 255, 0)'
+                    >
+                        Invite 
+                    </Button>
+                    
+     {/*End Email Field****************************************************************/}
+                        
+                    </Container>
+                 </Container>
              </Container>
+            
 
         </React.Fragment>
          
