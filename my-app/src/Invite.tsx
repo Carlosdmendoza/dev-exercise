@@ -60,8 +60,8 @@ const Invite: React.FC=()=>{
                 />
 
                     <Button
-                    style={{width:'88px', height: '44px', marginTop: '20px'}}
-                    background= '#186bed'
+                    style={{width:'88px', height: '44px', marginTop: '20px', background: 'rgb(24 107 237)'}}
+
                     >
                         Invite 
                     </Button>
@@ -114,8 +114,8 @@ const Invite: React.FC=()=>{
 
                             minWidth='640px'
                             type="list"
-                            title="With Avatar &amp; Component"
-                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                            title="Paul Mackenzie"
+                            text="paul.mackenzie@partnerhero.com"
                             left={
                                 <div>
                                     <Avatar
@@ -126,7 +126,7 @@ const Invite: React.FC=()=>{
                                     />
                                 </div>
                             }
-                            right={<Icon margin="0" icon="faEllipsis" />}
+                            right={<Icon margin="0" icon="faEnvelope" />}
                         />
                         </Container>
 
@@ -139,8 +139,8 @@ const Invite: React.FC=()=>{
 
                             minWidth='640px'
                             type="list"
-                            title="With Avatar &amp; Component"
-                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                            title="Lauren Frost"
+                            text="lauren.frost@partnerhero.com"
                             left={
                                 <div>
                                     <Avatar
@@ -151,7 +151,7 @@ const Invite: React.FC=()=>{
                                     />
                                 </div>
                             }
-                            right={<Icon margin="0" icon="faEllipsis" />}
+                            right={<Icon margin="0" icon="faEnvelope" />}
                         />
                         </Container>
 
