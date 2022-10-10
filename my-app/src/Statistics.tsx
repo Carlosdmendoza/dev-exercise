@@ -3,7 +3,7 @@ import MainHeader from './MainHeader';
 import { Container } from '@partnerhero/phds.ui.layouts.container';
 import ToDoItems from './NewToDoItem';
 import ToDoOptions from './ToDoOptions';
-
+import './Statistics.css';
 
 const Statistics: React.FC=()=>{
     return(

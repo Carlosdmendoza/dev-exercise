@@ -5,7 +5,7 @@ import { FontAwesomeSizeEnum, Icon } from '@partnerhero/phds.ui.icons.icon';
 import { Avatar } from '@partnerhero/phds.ui.avatar';
 import { Size } from '@partnerhero/phds.utilities.enums';
 
-import './index.css';
+
 
 const avatarURL =
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP2QL4r_lVl4Jc3jNSPwDbUU85KNAWJurhedZhvW6j0zN47wkbu9lqTm9DX96WMJpOcps&usqp=CAU';
@@ -31,13 +31,13 @@ const MainHeader: React.FC=()=>{
                     >
 
             <MenuItem style={{marginLeft:"62px"}}
-             className = "MenuItem" 
+             className = "MenuItem1" 
              label="Todo Items"
              onClick={() => window.open("/Todo" , "_Current")}
              iconProps={{ icon: 'faClipboardListCheck' }}
             />
 
-           <MenuItem className = "MenuItem"
+           <MenuItem className = "MenuItem2"
              label="Statistics"
              onClick={() => window.open("/Statistics" , "_Current")}
              iconProps={{ icon: 'faChartLine' }}
@@ -45,7 +45,7 @@ const MainHeader: React.FC=()=>{
             />
 
            <MenuItem 
-             className = "MenuItem" 
+             className = "MenuItem3" 
              label="Invite Friends"
              onClick={() => window.open("/Invite" , "_Current")}
              iconProps={{ icon: 'faEnvelopesBulk'}}
