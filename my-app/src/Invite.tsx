@@ -23,6 +23,7 @@ const Invite: React.FC=()=>{
                  <Container
                  margin='auto'
                  style={{display:'inline-block', paddingBottom:'0px', width:'672px'}}
+                 addFullWidth
                  
                  
                  >
@@ -65,7 +66,29 @@ const Invite: React.FC=()=>{
      {/*End Email Field****************************************************************/}
                         
                     </Container>
+
+                    <Container
+                      style={{display:'inline-block', paddingBottom:'0px', width:'652px', marginTop:'25px'}}
+                    addShadow
+                    backgroundColor='white'
+                    >
+
+                        <Typography
+                        style={{marginTop:'25px'}}
+                        align= 'center'
+                        variant='boldLarge'
+                        >
+                            Invites Sent
+
+                        </Typography>
+                        
+                    </Container>
                  </Container>
+
+                 
+
+
+
              </Container>
             
 
