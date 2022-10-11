@@ -10,6 +10,7 @@
     "@partnerhero/phds.ui.card": "^1.0.0",
     "@partnerhero/phds.ui.form_elements.selection": "^1.0.0",
     "@partnerhero/phds.ui.layouts.container": "^1.0.0",
+    "@partnerhero/phds.ui.layouts.grid": "^1.0.0",
     "@partnerhero/phds.ui.menu.menu_item": "^1.0.0",
     "@partnerhero/phds.ui.navigation.tab": "^1.0.0",
     "@partnerhero/phds.ui.navigation.tab_bar": "^1.0.0",

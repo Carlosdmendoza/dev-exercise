@@ -10,6 +10,7 @@ import { FontAwesomeSizeEnum, Icon } from '@partnerhero/phds.ui.icons.icon';
 import { Button } from '@partnerhero/phds.ui.buttons.button';
 import { Card } from '@partnerhero/phds.ui.card';
 import { Avatar } from '@partnerhero/phds.ui.avatar';
+import './Invite.css';
 
 const avatarURL =
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP2QL4r_lVl4Jc3jNSPwDbUU85KNAWJurhedZhvW6j0zN47wkbu9lqTm9DX96WMJpOcps&usqp=CAU';
