@@ -8,6 +8,7 @@
     "@partnerhero/phds.ui.avatar": "^1.0.0",
     "@partnerhero/phds.ui.buttons.button": "^1.0.0",
     "@partnerhero/phds.ui.card": "^1.0.0",
+    "@partnerhero/phds.ui.comment_card": "^1.0.0",
     "@partnerhero/phds.ui.form_elements.selection": "^1.0.0",
     "@partnerhero/phds.ui.layouts.container": "^1.0.0",
     "@partnerhero/phds.ui.layouts.grid": "^1.0.0",
